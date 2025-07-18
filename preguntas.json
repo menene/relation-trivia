@@ -1,0 +1,62 @@
+[
+  {
+    "frente": "📚 Biblioteca y Libros",
+    "respuesta": "Agregación",
+    "descripcion": "La biblioteca agrega libros, pero los libros pueden existir fuera de ella."
+  },
+  {
+    "frente": "🏠 Casa y Habitaciones",
+    "respuesta": "Composición",
+    "descripcion": "Las habitaciones no tienen sentido fuera de la casa."
+  },
+  {
+    "frente": "💳 Pedido y Pago",
+    "respuesta": "Dependencia",
+    "descripcion": "Pedido usa Pago solo durante el procesamiento, no lo contiene."
+  },
+  {
+    "frente": "🚗 Carro y Motor",
+    "respuesta": "Asociación",
+    "descripcion": "Carro tiene un Motor como atributo, pero el Motor puede existir solo."
+  },
+  {
+    "frente": "👨‍🏫 Profesor y Universidad",
+    "respuesta": "Asociación",
+    "descripcion": "Profesor está asociado a una Universidad porque trabaja ahí."
+  },
+  {
+    "frente": "🏢 Empresa y Empleados",
+    "respuesta": "Agregación",
+    "descripcion": "Los empleados existen independientemente de la empresa."
+  },
+  {
+    "frente": "🏫 Universidad y Facultades",
+    "respuesta": "Composición",
+    "descripcion": "Las facultades no existen sin la universidad."
+  },
+  {
+    "frente": "🖨️ Documento y Impresora",
+    "respuesta": "Dependencia",
+    "descripcion": "Documento usa la impresora solo cuando necesita imprimirse."
+  },
+  {
+    "frente": "🐶 Animal y Perro",
+    "respuesta": "Herencia",
+    "descripcion": "Perro es un tipo de Animal."
+  },
+  {
+    "frente": "📱 Teléfono y SIM Card",
+    "respuesta": "Agregación",
+    "descripcion": "La SIM puede existir fuera del teléfono."
+  },
+  {
+    "frente": "👨‍⚕️ Médico y Receta",
+    "respuesta": "Dependencia",
+    "descripcion": "El médico emite recetas de forma temporal cuando se necesitan, no las guarda como atributo."
+  },
+  {
+    "frente": "🍽️ Restaurante y Menú",
+    "respuesta": "Composición",
+    "descripcion": "El menú no tiene sentido fuera del restaurante; si el restaurante se destruye, el menú también."
+  }
+]
