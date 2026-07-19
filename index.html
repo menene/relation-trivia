@@ -4,11 +4,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>¿Cómo se llama la relación?</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Anton&family=Bebas+Neue&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1>🎯 ¿Cómo se llama la relación?</h1>
-    <div class="grid" id="cardGrid"></div>
+    <div class="stage">
+        <header class="marquee">
+            <div class="bulbs" aria-hidden="true"></div>
+            <p class="kicker">TRIVIA · PROGRAMACIÓN ORIENTADA A OBJETOS</p>
+            <h1>¿Cómo se llama<br><span>la relación?</span></h1>
+            <p class="subtitle">Toca una tarjeta para revelar el tipo de relación entre las clases.</p>
+            <div class="bulbs" aria-hidden="true"></div>
+        </header>
+
+        <nav class="levels" id="levelNav" aria-label="Niveles"></nav>
+
+        <div class="hud">
+            <div class="score">
+                Reveladas <strong id="scoreCount">0</strong> / <span id="scoreTotal">0</span>
+            </div>
+            <ul class="legend" id="legend"></ul>
+            <button class="reset-btn" id="resetBtn" type="button">↺ Reiniciar ronda</button>
+        </div>
+
+        <div class="grid" id="cardGrid"></div>
+
+        <div class="round-nav">
+            <button class="round-btn" id="prevLevel" type="button">← Anterior</button>
+            <span class="round-label" id="roundLabel">Ronda 1</span>
+            <button class="round-btn" id="nextLevel" type="button">Siguiente →</button>
+        </div>
+    </div>
+    <script src="preguntas.js"></script>
     <script src="script.js"></script>
 </body>
 </html>
